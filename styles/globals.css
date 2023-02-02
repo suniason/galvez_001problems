@@ -7,9 +7,9 @@
 }
 
 .wrapper{
-  height: 100vh;
+  padding-top: 10rem;
+  min-height: 100vh;
   justify-content: center;
-  align-items: center;
   display: flex;
   width: 100%;
 }
@@ -19,7 +19,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg, #0099ff77, #000000bb);
+  background-image: linear-gradient(180deg, #14719577, #ddddddbb);
   display: flex;
   cursor: pointer;
   position: fixed;
@@ -36,15 +36,15 @@
 .navbarwrapper div{
   font-size: 2.5rem;
   font-weight: 700;
-  color: #0099ff;
+  color: #147195;
   display: inline-block;
   transition: transform .15s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
 .navbarwrapper ul{
   list-style: none;
-  color: #0099ff;
-  font-size: 1.2rem;
+  color: #147195;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
@@ -75,9 +75,9 @@
 .problemwrapper{
   text-align: center;
   width:80%;
-  height: 22rem;
-  box-shadow: 3px 3px 20px 3px #0099ff;
-  background-color: #00000099;
+  height: fit-content;
+  box-shadow: 3px 3px 20px 3px #147195;
+  background-color: #ffffffaa;
 }
 
 head{
@@ -86,7 +86,7 @@ head{
 
 h1{
   height: 1rem;
-  color: #0099ff;
+  color: #147195;
   font-size: 2.5rem;
   cursor: pointer;
 }
@@ -97,7 +97,7 @@ h1::before, h1::after{
   width: 100%;
   height: .3rem;
   transition: transform .5s;
-  background-color: #0099ff;
+  background-color: #147195;
   transform: scaleX(0);
 }
 
@@ -120,9 +120,19 @@ h1:hover:after{
 }
 
 .content{
-  margin: 3rem 0;
-  font-size: 2rem;
-  color: #0099ff;
+  margin: 5rem 1rem;
+  font-size: 1.5rem;
+  color: #147195;
+  line-height: 2rem;
+}
+
+
+.content img{
+  margin: 1rem;
+  width: 60%;
+  height:60%;
+  pointer-events: none;
+  transition: opacity 1s ease;
 }
 
 
@@ -130,10 +140,15 @@ h1:hover:after{
 /*Solution Wrapper*/
 
 .solutionwrapper{
-  height: 30rem;
+  height: fit-content;
   width: 90%;
   color: #ffffff;
-  background: #0099ff99;
+  background: #14719599;
+  text-align: center;
+}
+
+.solutionwrapper .content{
+  color: #ffffff;
 }
 
 .solutionhead{
@@ -155,7 +170,6 @@ h1:hover:after{
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  color: #0099ff;
   margin: 0 1rem;
   width: 70%;
 }
@@ -178,7 +192,6 @@ h1:hover:after{
   transition: opacity 1s ease;
 }
 
-
 .solutioncontent{
   margin: 1rem 0 0 0;
   font-size: 1rem;
@@ -192,17 +205,4 @@ h1:hover:after{
   font-size: 2.5rem;
   font-weight: 700;
   opacity: 100%;
-  color: #0099ff;
-}
-
-.desc{
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  font-weight: 700;
-  opacity: 0%;
-  transition: opacity 1s ease;
-  color: black;
 }
