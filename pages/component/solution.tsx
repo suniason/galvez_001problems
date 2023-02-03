@@ -7,7 +7,7 @@ const Solution : React.FC = () => {
             <div className="solutionwrapper">
                 <h1 className="solutionhead">SOLUTION</h1>
                 <div className="content">
-                    Information technology gives us easier sharing capablities of facts but it also 
+                    Information technology gives us easier sharing capabilities of facts but it also 
                     makes it easier to spread wrong or false information. To use information technology 
                     against fake news, we can take advantage of the technologically advanced systems.
                     We can create an AI or Machine Learning system that gathers data 
