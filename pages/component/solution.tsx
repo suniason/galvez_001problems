@@ -6,8 +6,6 @@ const Solution : React.FC = () => {
         <div className="wrapper">
             <div className="solutionwrapper">
                 <h1 className="solutionhead">SOLUTION</h1>
-                <div className="solutioncontainer">
-                </div>
                 <div className="content">
                     Information technology gives us easier sharing capablities of facts but it also 
                     makes it easier to spread wrong or false information. To use information technology 
@@ -20,7 +18,6 @@ const Solution : React.FC = () => {
                     To sum up, we can use information technology to to our favor. It is a key driving force in ensuring that 
                     the information we receive and disseminate is reliable and trustworthy and make sure. With it, we can 
                     restrain the spread of false information and create a safer environment.
-
                 </div>
             </div>
         </div>
