@@ -7,14 +7,6 @@ const Solution : React.FC = () => {
             <div className="solutionwrapper">
                 <h1 className="solutionhead">SOLUTION</h1>
                 <div className="solutioncontainer">
-                    <div className="gridcontainer">
-                        <span className="solutionspan">
-                          
-                        </span>
-                        <span className="solutionspan">
-
-                        </span>
-                    </div>
                 </div>
                 <div className="content">
                     Information technology gives us easier sharing capablities of facts but it also 
