@@ -14,18 +14,22 @@ const Navbar: React.FC<Navigation> = (prop: Navigation) => {
         <div>
             <div className="navbarwrapper">
                 <span>
-                    <div onMouseEnter={handleHover}>I</div>
-                    <div onMouseEnter={handleHover}>T</div>
+                    <div className="textwrapper">
+                        <div onMouseEnter={handleHover}>I</div>
+                        <div onMouseEnter={handleHover}>T</div>
+                    </div>
                     <div>&nbsp;</div>
-                    <div onMouseEnter={handleHover}>S</div>
-                    <div onMouseEnter={handleHover}>O</div>
-                    <div onMouseEnter={handleHover}>L</div>
-                    <div onMouseEnter={handleHover}>U</div>
-                    <div onMouseEnter={handleHover}>T</div>
-                    <div onMouseEnter={handleHover}>I</div>
-                    <div onMouseEnter={handleHover}>O</div>
-                    <div onMouseEnter={handleHover}>N</div>
-                    <div onMouseEnter={handleHover}>S</div>
+                    <div className="textwrapper">
+                        <div onMouseEnter={handleHover}>S</div>
+                        <div onMouseEnter={handleHover}>O</div>
+                        <div onMouseEnter={handleHover}>L</div>
+                        <div onMouseEnter={handleHover}>U</div>
+                        <div onMouseEnter={handleHover}>T</div>
+                        <div onMouseEnter={handleHover}>I</div>
+                        <div onMouseEnter={handleHover}>O</div>
+                        <div onMouseEnter={handleHover}>N</div>
+                        <div onMouseEnter={handleHover}>S</div>
+                    </div>
                 </span>
                 <ul>
                     <li onClick={() => prop.clicked(1)}>Problem</li>

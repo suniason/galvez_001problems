@@ -30,7 +30,7 @@
 }
 
 .navbarwrapper span{
-  margin: 0 20% 0 0;
+  margin: 0 0 0 10%;
 }
 
 .navbarwrapper div{
@@ -46,11 +46,13 @@
   color: #147195;
   font-size: 1.3rem;
   font-weight: 400;
+  text-align: center;
 }
 
 .navbarwrapper li{
   display: inline-block;
-  padding: 0 2rem;
+  padding: 0;
+  margin: 0 2.5rem;
 }
 
 .navbarwrapper li:hover{
